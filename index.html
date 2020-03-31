@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title> MEME MAKER</title>
+
+    <link rel = "icon" href =
+    "icon.png"
+            type = "image/x-icon">
+
+</head>
+
+<body>
+   <aside>
+    <figure>
+        <div id ="avatar"> </div>
+        <figcaption><h2>MEME MAKER</h2></figcaption>
+        </figure>
+    <img src="menu.png" >
+
+<nav>
+    <ul >
+        <li><a href="index.html"> HOME</a> </li>
+        <li><a href="contact.html"> CONTACT US</a> </li>
+    </ul>
+</nav>
+
+   </aside>
+  <main>
+   <h1>Hello ,FRIENDS ITS MEME TIME  </h1>
+   <p>Just write your name to see the memes I have made on you as you can take the others memes </p>
+   <p></p>
+
+<form action="meme.html">
+    <input  class =" textbox" required type="text" name="name" value placeholder="       NAME*">
+    <br>
+    <p></p>
+    <input class =" submit" type="submit" name="" value="SEE YOUR MEME">
+</form>
+<div class="memeright">
+   </div>
+
+  
+
+  <a style="text-decoration:none" href="http://17cash.yolasite.com/"> <h3> Made with ❤ by  Yash³ </h3> </a>
+
+
+</main>
+
+   <script>
+
+    (function() {
+        var menu = document.querySelector('ul'),
+            menulink = document.querySelector('img');
+
+        menulink.addEventListener('click', function(e) {
+            menu.classList.toggle('active');
+            e.preventDefault();
+        });
+    })();
+
+</script>
+
+
+
+</body>
+</html>
